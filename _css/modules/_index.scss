@@ -1,0 +1,20 @@
+// Modules
+//
+// A Module is a component of the page. It is a navigation
+// bar, a carousel, a widget, a dialog, and so on. This is
+// the meat of the page. Modules sit inside Layout
+// components. Modules can sometimes sit within other
+// Modules too. Each Module should be designed to exist as
+// a standalone component. In doing so, the page will be
+// more flexible. If done right, Modules can easily be
+// moved to different parts of the layout without breaking. 
+//
+// Avoid using IDs and element selectors, sticking only to
+// class names. Only include an element selector that 
+// includes semantics. A span or div holds none. A heading
+// has some. The more semantically generic the HTML element
+// (like a span or div), the more likely it is to create a
+// conflict down the road.
+// 
+// Modules should be created in separate files within the
+// "modules" directory and imported into this file.

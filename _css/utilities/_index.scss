@@ -1,6 +1,16 @@
-@import 'fonts';
+// Utilities
+//
+// Utilities include everything that is not actual CSS.
+// This can include variables, configuration, functions,
+// etc.
+//
+// The fonts will be imported separately to the styles.scss
+// file. All other state files should be created in
+// separate files within the "utilities" directory and
+// imported into this file.
+
+@import 'colors';
+@import 'config';
 @import 'functions';
-@import 'global';
-@import 'helpers';
-@import 'lib';
 @import 'mixins';
+@import 'typography';
